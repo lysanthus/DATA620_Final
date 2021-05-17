@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
 <center>
-<h1>Politifact - Least Truthful for Topics 2 & 3</h1>
+<h1>Politifact - Most Truthful for Topic 6</h1>
 </center>
 
 <!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
@@ -58,8 +58,8 @@
         
 
         // parsing and collecting nodes and edges from the python
-        nodes = new vis.DataSet([{"font": {"color": "black"}, "id": 2, "label": 2, "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Viral image", "label": "Viral image", "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Facebook posts", "label": "Facebook posts", "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Bloggers", "label": "Bloggers", "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Ted Cruz", "label": "Ted Cruz", "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Donald Trump", "label": "Donald Trump", "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Marco Rubio", "label": "Marco Rubio", "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Newt Gingrich", "label": "Newt Gingrich", "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Chain email", "label": "Chain email", "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": 3, "label": 3, "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Joe Biden", "label": "Joe Biden", "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Mitt Romney", "label": "Mitt Romney", "shape": "dot", "size": 10}]);
-        edges = new vis.DataSet([{"from": 2, "to": "Viral image", "value": 135, "weight": 1}, {"from": 2, "to": "Facebook posts", "value": 213, "weight": 1}, {"from": 2, "to": "Bloggers", "value": 225, "weight": 1}, {"from": 2, "to": "Ted Cruz", "value": 54, "weight": 1}, {"from": 2, "to": "Donald Trump", "value": 307, "weight": 1}, {"from": 2, "to": "Marco Rubio", "value": 42, "weight": 1}, {"from": 2, "to": "Newt Gingrich", "value": 35, "weight": 1}, {"from": 2, "to": "Chain email", "value": 94, "weight": 1}, {"from": 3, "to": "Viral image", "value": 110, "weight": 1}, {"from": 3, "to": "Facebook posts", "value": 178, "weight": 1}, {"from": 3, "to": "Bloggers", "value": 94, "weight": 1}, {"from": 3, "to": "Joe Biden", "value": 35, "weight": 1}, {"from": 3, "to": "Donald Trump", "value": 103, "weight": 1}, {"from": 3, "to": "Mitt Romney", "value": 31, "weight": 1}]);
+        nodes = new vis.DataSet([{"font": {"color": "black"}, "id": 6, "label": 6, "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Ron Johnson", "label": "Ron Johnson", "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Gwen Moore", "label": "Gwen Moore", "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Mary Burke", "label": "Mary Burke", "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "John McCain", "label": "John McCain", "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Sheldon Whitehouse", "label": "Sheldon Whitehouse", "shape": "dot", "size": 10}, {"font": {"color": "black"}, "id": "Charlie Crist", "label": "Charlie Crist", "shape": "dot", "size": 10}]);
+        edges = new vis.DataSet([{"from": 6, "to": "Ron Johnson", "value": 24, "weight": 1}, {"from": 6, "to": "Gwen Moore", "value": 15, "weight": 1}, {"from": 6, "to": "Mary Burke", "value": 12, "weight": 1}, {"from": 6, "to": "John McCain", "value": 15, "weight": 1}, {"from": 6, "to": "Sheldon Whitehouse", "value": 11, "weight": 1}, {"from": 6, "to": "Charlie Crist", "value": 14, "weight": 1}]);
 
         // adding nodes and edges to the graph
         data = {nodes: nodes, edges: edges};
